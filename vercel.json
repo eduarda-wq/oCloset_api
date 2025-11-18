@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "nome_do_teu_projeto/wsgi.py",
+            "src": "OCloset_api/wsgi.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "nome_do_teu_projeto/wsgi.py"
+            "dest": "OCloset_api/wsgi.py"
         }
     ]
 }
